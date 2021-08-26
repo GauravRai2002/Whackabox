@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whack a box</title>
-    <style>
-        * {
+    <style>     
+      * {
             margin: 0px;
             padding: 0px;
         }
@@ -69,10 +69,12 @@
                 'box4 box5 box6'
                 'box7 box8 box9';
             border: 2px solid white;
-            width: 400px;
+            /* width: 400px;
             height: 400px;
-            margin: 50px auto;
+            margin: 50px auto; */
             padding: 15px;
+            align-items: center;
+            justify-content:center ;
         }
 
         .box {
@@ -122,7 +124,7 @@
 
         .message {
             width: 25%;
-            margin: auto;
+            /* margin: auto; */
             text-align: center;
 
         }
@@ -130,11 +132,61 @@
         .btn {
             width: 100px;
             padding: 10px;
-            margin: 15px;
+            /* margin: 15px; */
             border: 2px solid white;
             border-radius: 20px;
             cursor: pointer;
         }
+    
+    @media screen and (max-width:600px)
+    {
+        .score {
+            display: grid;
+            grid-template-areas:
+                'curr'
+                'currsco'
+                'high'
+                'hsco';
+            width: 600px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .gamearea {
+            display: grid;
+            grid-template-areas:
+                'box1 box2 box3'
+                'box4 box5 box6'
+                'box7 box8 box9';
+            border: 2px solid white;
+            /* width: 20rem;
+            height: 20rem;
+            margin: 50px 45vw; */
+            padding: 5px;
+            align-items: center;
+            justify-content:center ;
+        }
+
+        .box {
+            border: 2px solid white;
+            width: 4rem;
+            height: 4rem;
+            padding: 10px;
+            margin: 5px;
+            box-shadow: white -2px -2px 5px -2px;
+        }
+
+        .message {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* width: 50%;
+            margin: 10px 70vw; */
+            text-align: center;
+
+        }
+    }
     </style>
 </head>
 
@@ -363,7 +415,7 @@
                     box1.style.background = 'white';
                     setTimeout(() => {
                         box1.style.background = 'none';
-                    }, 550);
+                    }, 900);
                 }
 
                 else if (a >= 1 && a < 2) {
@@ -371,56 +423,56 @@
                     box2.style.background = 'white';
                     setTimeout(() => {
                         box2.style.background = 'none';
-                    }, 550);
+                    }, 900);
                 }
                 else if (a >= 2 && a < 3) {
                     let b = document.getElementById('box3');
                     box3.style.background = 'white';
                     setTimeout(() => {
                         box3.style.background = 'none';
-                    }, 550);
+                    }, 900);
                 }
                 else if (a >= 3 && a < 4) {
                     let b = document.getElementById('box4');
                     box4.style.background = 'white';
                     setTimeout(() => {
                         box4.style.background = 'none';
-                    }, 550);
+                    }, 900);
                 }
                 else if (a >= 4 && a < 5) {
                     let b = document.getElementById('box5');
                     box5.style.background = 'white';
                     setTimeout(() => {
                         box5.style.background = 'none';
-                    }, 550);
+                    }, 900);
                 }
                 else if (a >= 5 && a < 6) {
                     let b = document.getElementById('box6');
                     box6.style.background = 'white';
                     setTimeout(() => {
                         box6.style.background = 'none';
-                    }, 550);
+                    }, 900);
                 }
                 else if (a >= 6 && a < 7) {
                     let b = document.getElementById('box7');
                     box7.style.background = 'white';
                     setTimeout(() => {
                         box7.style.background = 'none';
-                    }, 550);
+                    }, 900);
                 }
                 else if (a >= 7 && a < 8) {
                     let b = document.getElementById('box8');
                     box8.style.background = 'white';
                     setTimeout(() => {
                         box8.style.background = 'none';
-                    }, 550);
+                    }, 900);
                 }
                 else if (a >= 8 && a < 9) {
                     let b = document.getElementById('box9');
                     box9.style.background = 'white';
                     setTimeout(() => {
                         box9.style.background = 'none';
-                    }, 550);
+                    }, 900);
                 }
             }
 
