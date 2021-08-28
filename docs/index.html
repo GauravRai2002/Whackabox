@@ -171,6 +171,25 @@
             box-sizing: border-box;
         }
 
+        #gameover {
+            position: fixed;
+            top: 50%;
+            width: 96%;
+
+        }
+
+        .over1 {
+            font-size: 25px;
+            color: rgb(185, 19, 19);
+            width: 50%;
+            margin: auto;
+            display: block;
+            background-color: blanchedalmond;
+            border: 2px solid red;
+            padding: 10px;
+            text-align: center;
+            margin: auto
+        }
 
 
         @media screen and (max-width:880px) {
@@ -299,6 +318,12 @@
         <button onclick="exit()" class="btn content">Start/Stop</button>
     </div>
 
+    <div class="over" id="gameover">
+        <div class="over1">
+            <h1>Start The Game</h1>
+        </div>
+    </div>
+
     <script>
         var a;
         var score;
@@ -316,6 +341,7 @@
             let d = document.getElementById('box1');
             if (box1.style.background == 'white') {
                 score = score + 10;
+                box1.style.background = 'green'
                 if (score <= 100) {
                     level = 1;
                     document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -343,6 +369,7 @@
                     gg = 0;
                     document.getElementById('highsco').innerHTML = `${high}`;
                     document.getElementById('CurrentScore').innerHTML = `${score}`;
+                    document.getElementById('gameover').style.display = 'block';
                     score = 0;
                     wrong = 0;
                     level = 1;
@@ -353,6 +380,7 @@
             let d = document.getElementById('box1');
             if (box2.style.background == 'white') {
                 score = score + 10;
+                box2.style.background = 'green'
                 if (score <= 100) {
                     level = 1;
                     document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -380,6 +408,7 @@
                     gg = 0;
                     document.getElementById('highsco').innerHTML = `${high}`;
                     document.getElementById('CurrentScore').innerHTML = `${score}`;
+                    document.getElementById('gameover').style.display = 'block';
                     score = 0;
                     wrong = 0;
                     level = 1;
@@ -390,6 +419,7 @@
             let d = document.getElementById('box1');
             if (box3.style.background == 'white') {
                 score = score + 10;
+                box3.style.background = 'green'
                 if (score <= 100) {
                     level = 1;
                     document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -417,6 +447,7 @@
                     gg = 0;
                     document.getElementById('highsco').innerHTML = `${high}`;
                     document.getElementById('CurrentScore').innerHTML = `${score}`;
+                    document.getElementById('gameover').style.display = 'block';
                     score = 0;
                     wrong = 0;
                     level = 1;
@@ -427,6 +458,7 @@
             let d = document.getElementById('box1');
             if (box4.style.background == 'white') {
                 score = score + 10;
+                box4.style.background = 'green'
                 if (score <= 100) {
                     level = 1;
                     document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -454,6 +486,7 @@
                     gg = 0;
                     document.getElementById('highsco').innerHTML = `${high}`;
                     document.getElementById('CurrentScore').innerHTML = `${score}`;
+                    document.getElementById('gameover').style.display = 'block';
                     score = 0;
                     wrong = 0;
                     level = 1;
@@ -464,6 +497,7 @@
             let d = document.getElementById('box1');
             if (box5.style.background == 'white') {
                 score = score + 10;
+                box5.style.background = 'green'
                 if (score <= 100) {
                     level = 1;
                     document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -491,6 +525,7 @@
                     gg = 0;
                     document.getElementById('highsco').innerHTML = `${high}`;
                     document.getElementById('CurrentScore').innerHTML = `${score}`;
+                    document.getElementById('gameover').style.display = 'block';
                     score = 0;
                     wrong = 0;
                     level = 1;
@@ -501,6 +536,7 @@
             let d = document.getElementById('box1');
             if (box6.style.background == 'white') {
                 score = score + 10;
+                box6.style.background = 'green'
                 if (score <= 100) {
                     level = 1;
                     document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -528,6 +564,7 @@
                     gg = 0;
                     document.getElementById('highsco').innerHTML = `${high}`;
                     document.getElementById('CurrentScore').innerHTML = `${score}`;
+                    document.getElementById('gameover').style.display = 'block';
                     score = 0;
                     wrong = 0;
                     level = 1;
@@ -538,6 +575,7 @@
             let d = document.getElementById('box1');
             if (box7.style.background == 'white') {
                 score = score + 10;
+                box7.style.background = 'green'
                 if (score <= 100) {
                     level = 1;
                     document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -565,6 +603,7 @@
                     gg = 0;
                     document.getElementById('highsco').innerHTML = `${high}`;
                     document.getElementById('CurrentScore').innerHTML = `${score}`;
+                    document.getElementById('gameover').style.display = 'block';
                     score = 0;
                     wrong = 0;
                     level = 1;
@@ -575,6 +614,7 @@
             let d = document.getElementById('box1');
             if (box8.style.background == 'white') {
                 score = score + 10;
+                box8.style.background = 'green'
                 if (score <= 100) {
                     level = 1;
                     document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -602,6 +642,7 @@
                     gg = 0;
                     document.getElementById('highsco').innerHTML = `${high}`;
                     document.getElementById('CurrentScore').innerHTML = `${score}`;
+                    document.getElementById('gameover').style.display = 'block';
                     score = 0;
                     wrong = 0;
                     level = 1;
@@ -612,6 +653,7 @@
             let d = document.getElementById('box1');
             if (box9.style.background == 'white') {
                 score = score + 10;
+                box9.style.background = 'green'
                 if (score <= 100) {
                     level = 1;
                     document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -639,6 +681,7 @@
                     gg = 0;
                     document.getElementById('highsco').innerHTML = `${high}`;
                     document.getElementById('CurrentScore').innerHTML = `${score}`;
+                    document.getElementById('gameover').style.display = 'block';
                     score = 0;
                     wrong = 0;
                     level = 1;
@@ -890,6 +933,7 @@
                 }
                 score = 0;
                 level = 1;
+                document.getElementById('gameover').style.display = 'none';
                 document.getElementById('CurrentScore').innerHTML = `${score}`;
                 document.getElementById('lvlnm').innerHTML = `${level}`;
             }
