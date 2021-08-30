@@ -14,7 +14,7 @@ function scoreing1() {
     let d = document.getElementById('box1');
     if (box1.style.background == 'white') {
         score = score + 10;
-        box1.style.background = 'green'
+        box1.style.background = 'green';
         d.innerHTML = '<audio autoplay><source src="correct_option.mp3" type="audio/mpeg"></audio>';
         if (score <= 100) {
             level = 1;
