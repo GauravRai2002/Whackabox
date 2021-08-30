@@ -15,7 +15,7 @@ function scoreing1() {
     if (box1.style.background == 'white') {
         score = score + 10;
         box1.style.background = 'green'
-        d.innerHTML = '<audio autoplay><source src="/correct_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="correct_option.mp3" type="audio/mpeg"></audio>';
         if (score <= 100) {
             level = 1;
             document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -38,7 +38,7 @@ function scoreing1() {
     else {
         wrong++;
         d.style.background = 'red';
-        d.innerHTML = '<audio autoplay><source src="/wrong_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="wrong_option.mp3" type="audio/mpeg"></audio>';
         setTimeout(() => {
             d.style.background = 'none';
         }, 200);
@@ -60,7 +60,7 @@ function scoreing2() {
     if (box2.style.background == 'white') {
         score = score + 10;
         box2.style.background = 'green';
-        d.innerHTML = '<audio autoplay><source src="/correct_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="correct_option.mp3" type="audio/mpeg"></audio>';
         if (score <= 100) {
             level = 1;
             document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -83,7 +83,7 @@ function scoreing2() {
     else {
         wrong++;
         d.style.background = 'red';
-        d.innerHTML = '<audio autoplay><source src="/wrong_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="wrong_option.mp3" type="audio/mpeg"></audio>';
         setTimeout(() => {
             d.style.background = 'none';
         }, 200);
@@ -105,7 +105,7 @@ function scoreing3() {
     if (box3.style.background == 'white') {
         score = score + 10;
         box3.style.background = 'green';
-        d.innerHTML = '<audio autoplay><source src="/correct_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="correct_option.mp3" type="audio/mpeg"></audio>';
         if (score <= 100) {
             level = 1;
             document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -128,7 +128,7 @@ function scoreing3() {
     else {
         wrong++;
         d.style.background = 'red';
-        d.innerHTML = '<audio autoplay><source src="/wrong_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="wrong_option.mp3" type="audio/mpeg"></audio>';
         setTimeout(() => {
             d.style.background = 'none';
         }, 200);
@@ -150,7 +150,7 @@ function scoreing4() {
     if (box4.style.background == 'white') {
         score = score + 10;
         box4.style.background = 'green';
-        d.innerHTML = '<audio autoplay><source src="/correct_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="correct_option.mp3" type="audio/mpeg"></audio>';
         if (score <= 100) {
             level = 1;
             document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -173,7 +173,7 @@ function scoreing4() {
     else {
         wrong++;
         d.style.background = 'red';
-        d.innerHTML = '<audio autoplay><source src="/wrong_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="wrong_option.mp3" type="audio/mpeg"></audio>';
         setTimeout(() => {
             d.style.background = 'none';
         }, 200);
@@ -195,7 +195,7 @@ function scoreing5() {
     if (box5.style.background == 'white') {
         score = score + 10;
         box5.style.background = 'green';
-        d.innerHTML = '<audio autoplay><source src="/correct_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="correct_option.mp3" type="audio/mpeg"></audio>';
         if (score <= 100) {
             level = 1;
             document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -218,7 +218,7 @@ function scoreing5() {
     else {
         wrong++;
         d.style.background = 'red';
-        d.innerHTML = '<audio autoplay><source src="/wrong_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="wrong_option.mp3" type="audio/mpeg"></audio>';
         setTimeout(() => {
             d.style.background = 'none';
         }, 200);
@@ -240,7 +240,7 @@ function scoreing6() {
     if (box6.style.background == 'white') {
         score = score + 10;
         box6.style.background = 'green';
-        d.innerHTML = '<audio autoplay><source src="/correct_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="correct_option.mp3" type="audio/mpeg"></audio>';
         if (score <= 100) {
             level = 1;
             document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -263,7 +263,7 @@ function scoreing6() {
     else {
         wrong++;
         d.style.background = 'red';
-        d.innerHTML = '<audio autoplay><source src="/wrong_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="wrong_option.mp3" type="audio/mpeg"></audio>';
         setTimeout(() => {
             d.style.background = 'none';
         }, 200);
@@ -285,7 +285,7 @@ function scoreing7() {
     if (box7.style.background == 'white') {
         score = score + 10;
         box7.style.background = 'green';
-        d.innerHTML = '<audio autoplay><source src="/correct_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="correct_option.mp3" type="audio/mpeg"></audio>';
         if (score <= 100) {
             level = 1;
             document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -308,7 +308,7 @@ function scoreing7() {
     else {
         wrong++;
         d.style.background = 'red';
-        d.innerHTML = '<audio autoplay><source src="/wrong_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="wrong_option.mp3" type="audio/mpeg"></audio>';
         setTimeout(() => {
             d.style.background = 'none';
         }, 200);
@@ -330,7 +330,7 @@ function scoreing8() {
     if (box8.style.background == 'white') {
         score = score + 10;
         box8.style.background = 'green';
-        d.innerHTML = '<audio autoplay><source src="/correct_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="correct_option.mp3" type="audio/mpeg"></audio>';
         if (score <= 100) {
             level = 1;
             document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -353,7 +353,7 @@ function scoreing8() {
     else {
         wrong++;
         d.style.background = 'red';
-        d.innerHTML = '<audio autoplay><source src="/wrong_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="wrong_option.mp3" type="audio/mpeg"></audio>';
         setTimeout(() => {
             d.style.background = 'none';
         }, 200);
@@ -375,7 +375,7 @@ function scoreing9() {
     if (box9.style.background == 'white') {
         score = score + 10;
         box9.style.background = 'green';
-        d.innerHTML = '<audio autoplay><source src="/correct_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="correct_option.mp3" type="audio/mpeg"></audio>';
         if (score <= 100) {
             level = 1;
             document.getElementById('lvlnm').innerHTML = `${level}`;
@@ -398,7 +398,7 @@ function scoreing9() {
     else {
         wrong++;
         d.style.background = 'red';
-        d.innerHTML = '<audio autoplay><source src="/wrong_option.mp3" type="audio/mpeg"></audio>';
+        d.innerHTML = '<audio autoplay><source src="wrong_option.mp3" type="audio/mpeg"></audio>';
         setTimeout(() => {
             d.style.background = 'none';
         }, 200);
